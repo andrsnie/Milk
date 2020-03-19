@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Created by andrSnie on 17.03.20 2:54
+  ~  Copyright (c) 2020. All rights reserved.
+  -->
+
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796B</color>
+    <color name="colorAccent">#536DFE</color>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~  Created by andrSnie on 17.03.20 2:54
+  ~  Copyright (c) 2020. All rights reserved.
+  -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Молоко</string>
+    
+    <string name="your_name">Ваше им\'я</string>
+	<string name="Quantity">кількість чашок молока:</string>
+	<string name="minus">-</string>
+	<string name="digit">2</string>
+	<string name="plus">+</string>
+    <string name="to_every_cup">до кожної чашки молока:</string>
+	<string name="pickle">Солоний огірок</string>
+	<string name="herring">Солоний оселедець</string>
+    <string name="order">замовити</string>
+
+    <string name="more_than">Ви не можете замовити більше 10 чашок кави!!!</string>
+	<string name="less_than">Ви не можете замовити менше 1 чашки кави!!!</string>
+	
+    <string name="order_for">Молоко з сюрпризом. Замовлення для <xliff:g id="name" example="Any">%s</xliff:g></string>
+    <string name="yes">Так</string>
+	<string name="no">Ні</string>
+	<string name="wrong_name">Ваше им\'я: ДЯТЕЛ або БАКЛАН?</string>
+	<string name="order_summary_name">Ваше им\'я:<xliff:g id="name" example="Any">%s</xliff:g></string>
+	<string name="add_pickle">Додати солоний огірок?</string>
+	<string name="add_herring">Додати солоний оселедець?</string>
+	<string name="quantity">Кількість:</string>
+	<string name="cups">чашок</string>
+	<string name="total">Всього:</string>
+	<string name="sign">$</string>
+	<string name="thank_you">Дякуємо!!!</string>
+</resources>
