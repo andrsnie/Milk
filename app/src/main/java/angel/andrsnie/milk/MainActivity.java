@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         String[] addressCC = {getString(R.string.yoko)};
         String[] addressBCC = {getString(R.string.john)};
         String subject = getResources().getString(R.string.order_for, yourName);
-        String priceMassage = priceOrder.createOrderSummary(yourName, hasPickle, hasHerring, quantity, price);
+        String priceMessage = priceOrder.createOrderSummary(yourName, hasPickle, hasHerring, quantity, price);
 
         Intent intent = new Intent(Intent.ACTION_SENDTO);
         intent.setData(Uri.parse(getString(R.string.ringo))); // only email apps should handle this
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra(Intent.EXTRA_CC, addressCC);
         intent.putExtra(Intent.EXTRA_BCC, addressBCC);
         intent.putExtra(Intent.EXTRA_SUBJECT, subject);
-        intent.putExtra(Intent.EXTRA_TEXT, priceMassage);
+        intent.putExtra(Intent.EXTRA_TEXT, priceMessage);
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         }
